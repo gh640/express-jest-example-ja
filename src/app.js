@@ -1,9 +1,9 @@
 import express from 'express'
 
+import hello from './handlers/hello.js'
+
 const app = express()
 
-app.get(`/`, (req, res) => {
-  res.send(`Hello World!`)
-})
+app.get(`/`, hello)
 
 export default app
