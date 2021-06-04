@@ -8,6 +8,10 @@
   },
   "author": "Goto Hayato",
   "license": "ISC",
+  "engines": {
+    "node": "16"
+  },
+  "type": "module",
   "dependencies": {
     "express": "^4.17.1"
   },
