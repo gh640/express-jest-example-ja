@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "start": "node app.js",
+    "test": "jest __tests__/unit",
+    "jest-puppeteer": "jest __tests__/e2e",
+    "test:e2e": "start-server-and-test start http://localhost:3000 jest-puppeteer"
   },
   "author": "Goto Hayato",
   "license": "ISC",
