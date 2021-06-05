@@ -4,7 +4,7 @@ import { jest } from '@jest/globals'
 
 import hello from '../../../src/handlers/hello.js'
 
-test('hello', async () => {
+test(`hello`, async () => {
 	const req = {}
 	const res = {
 	  send: jest.fn(),
