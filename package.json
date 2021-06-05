@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest __tests__/unit",
+    "test:unit": "NODE_OPTIONS=--experimental-vm-modules jest __tests__/unit",
+    "test:integration": "NODE_OPTIONS=--experimental-vm-modules jest __tests__/integration",
     "jest-puppeteer": "jest __tests__/e2e",
     "test:e2e": "start-server-and-test start http://localhost:3000 jest-puppeteer"
   },
