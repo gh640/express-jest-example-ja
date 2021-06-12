@@ -20,6 +20,19 @@ npm run test:integration
 npm run test:e2e
 ```
 
+## 利用パッケージ
+
+### `depenencies`
+
+- `express` 4.x
+
+### `devDependencies`
+
+- `jest` 27.x
+- `jest-puppeteer` 5.x
+- `start-server-and-test` 1.x
+- `supertest` 6.x
+
 かんたんなチュートリアルが次の記事にあります。
 
 - [Express アプリのテストの書き方 | gotohayato.com](https://gotohayato.com/content/537/)
