@@ -10,8 +10,8 @@ env:
   NODE_VERSION: '16'
 
 jobs:
-  unit_with_jest:
-    name: Run unit tests with jest
+  tests:
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,3 +27,5 @@ jobs:
         run: npm run test:unit
       - name: Run Integration Tests
         run: npm run test:integration
+      - name: Run E2E Tests
+        run: npm run test:e2e
