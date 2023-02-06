@@ -13,7 +13,7 @@
   "author": "Goto Hayato",
   "license": "ISC",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "type": "module",
   "dependencies": {
