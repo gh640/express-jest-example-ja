@@ -28,9 +28,9 @@ npm run test:e2e
 
 ### `devDependencies`
 
-- `jest` 27.x
-- `jest-puppeteer` 5.x
-- `start-server-and-test` 1.x
+- `jest` 29.x
+- `jest-puppeteer` 7.x
+- `start-server-and-test` 2.x
 - `supertest` 6.x
 
 かんたんなチュートリアルが次の記事にあります。
