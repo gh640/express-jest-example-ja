@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "jest": "^29.4.1",
-    "jest-puppeteer": "^7.0.0",
+    "jest-puppeteer": "^10.0.1",
     "start-server-and-test": "^2.0.3",
     "supertest": "^6.1.3"
   }
