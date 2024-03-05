@@ -29,7 +29,7 @@ npm run test:e2e
 ### `devDependencies`
 
 - `jest` 29.x
-- `jest-puppeteer` 7.x
+- `jest-puppeteer` 10.x
 - `start-server-and-test` 2.x
 - `supertest` 6.x
 

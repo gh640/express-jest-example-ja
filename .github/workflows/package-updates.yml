@@ -6,9 +6,6 @@ on:
     - cron: '20 5 5 * *'
   workflow_dispatch:
 
-env:
-  NODE_VERSION: '18'
-
 jobs:
   update:
     name: Create Pull Request to update packages
@@ -19,7 +16,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: '.node-version'
           cache: 'npm'
       - name: Update packages
         run: npm update
